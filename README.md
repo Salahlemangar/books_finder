@@ -1,16 +1,21 @@
-# books_finder
+ Book Finder App
 
-A new Flutter project.
+**Tier:** 2-Intermediate
 
-## Getting Started
+Create an application that will allow users to search for books by entering a query (Title, Author, etc). Display the resulting books in a list on the page with all the corresponding data.
 
-This project is a starting point for a Flutter application.
+## User Stories
 
-A few resources to get you started if this is your first Flutter project:
+- [ ] User can enter a search query into an `input` field
+- [ ] User can submit the query. This will call an API that will return an array of books with the corresponding data (**Title**, **Author**, **Published Date**, **Picture**, etc)
+- [ ] User can see the list of books appearing on the page
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Bonus features
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [ ] For each item in the list add a link that will send the User to an external site which has more information about the book
+- [ ] Implement a Responsive Design
+- [ ] Add loading animations
+
+## Useful links and resources
+
+You can use the [Google Books API](https://developers.google.com/books/docs/overview)
